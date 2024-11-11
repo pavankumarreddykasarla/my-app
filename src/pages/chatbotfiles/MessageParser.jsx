@@ -1,7 +1,6 @@
 import React from 'react';
 
 const MessageParser = ({ children, actions }) => {
-  debugger;
   
   const parse = (message) => {
     const lowerCaseMessage = message.toLowerCase();
@@ -75,3 +74,4 @@ export default MessageParser;
 // };
 
 // export default MessageParser;
+

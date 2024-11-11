@@ -75,11 +75,10 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   
   const qa = async (usermessage) => {
     try {
-      const response = await fetch('https://fwmj3alirijfcc3lypmvi3rtiu0vqeog.lambda-url.us-east-2.on.aws/', {
+      const response = await fetch('https://cftvssypvmboikjuplrn6adsc40mpiws.lambda-url.us-east-2.on.aws/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'redirect': 'follow'
         },
         body: JSON.stringify({ query: usermessage }),
       });
