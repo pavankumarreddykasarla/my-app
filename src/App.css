@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Chatbot css */
+
+.react-chatbot-kit-chat-container{
+  /* width: max-content !important; */
+  margin-left: 150px !important;
+  padding-top: 20px;
+  margin-right: 150px !important; 
+  min-height: 90vh;
+}
+
+.react-chatbot-kit-chat-message-container{
+  min-height: 79vh;
+  background-image: url('./news_article.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+  /* width: 100vw !important; */
+}
+
+.react-chatbot-kit-chat-inner-container{
+  min-width: calc(100vw - 300px);
+}
+
+.react-chatbot-kit-chat-input-container{
+  min-width: calc(100vw - 300px);
+}
+
+.react-chatbot-kit-chat-bot-message{
+  margin-left: 0% !important;
+
+}
+
+.react-chatbot-kit-user-chat-message-container {
+  padding-left: 150px;
+}
+/* Scrollbar styling for WebKit (Chrome, Safari, Edge) */
+.react-chatbot-kit-chat-message-container::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.react-chatbot-kit-chat-message-container::-webkit-scrollbar-track {
+  background: #f9f9f9; /* Lighter background for track */
+}
+
+.react-chatbot-kit-chat-message-container::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Light gray for the thumb */
+  border-radius: 10px; /* Rounded scrollbar */
+  border: 2px solid #f9f9f9; /* Light border around the thumb */
+}
+
+.react-chatbot-kit-chat-message-container::-webkit-scrollbar-thumb:hover {
+  background: #bbb; /* Slightly darker on hover */
+}
+
+/* Scrollbar styling for Firefox */
+.react-chatbot-kit-chat-message-container {
+  /* overflow:unset !important; */
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #ccc #f9f9f9; /* Light scrollbar and track color */
+}
