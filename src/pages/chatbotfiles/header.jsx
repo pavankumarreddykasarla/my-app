@@ -36,7 +36,7 @@ const Header = () => {
           onChange={handleModelChange}
           style={{ border: 'none', fontSize: 'x-large', outline: 'none' }}
         >
-          <option value="Llama 3.1">Llama3</option>
+          <option value="Llama 3.1">Llama 3.1</option>
           <option value="Mystral">Mystral</option>
           <option value="Falcon">Falcon</option>
         </select>
