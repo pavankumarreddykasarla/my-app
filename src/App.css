@@ -74,7 +74,8 @@
 }
 
 .react-chatbot-kit-user-chat-message {
-  max-width: 450px;
+  max-width: 550px;
+  width: 450px;
 }
 .react-chatbot-kit-user-chat-message-container {
   padding-left: 150px;
