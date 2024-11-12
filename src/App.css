@@ -70,12 +70,13 @@
 .react-chatbot-kit-chat-bot-message{
   margin-left: 0% !important;
   max-width: 450px !important;
+  width: 450px !important;
 
 }
 
 .react-chatbot-kit-user-chat-message {
-  max-width: 550px;
-  width: 450px;
+  max-width: 550px !important;
+  
 }
 .react-chatbot-kit-user-chat-message-container {
   padding-left: 150px;
