@@ -10,7 +10,7 @@ const MessageParser = ({ children, actions }) => {
     if (lowerCaseMessage.includes('dog')) {
       actions.handleDog();
     }
-    if (lowerCaseMessage.includes('summary')){
+    if (lowerCaseMessage.includes('summary') || lowerCaseMessage.includes('summarize')){
       actions.summary(lowerCaseMessage);
     }
     if( lowerCaseMessage.includes('?')){
