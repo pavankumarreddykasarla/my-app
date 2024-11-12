@@ -42,7 +42,7 @@ const Header = () => {
         </select>
       </div>
 
-      <div>
+      {/* <div>
         <select
           id="dropdown2"
           value={selectedDropdown2}
@@ -52,7 +52,7 @@ const Header = () => {
           <option value="summary">Summary</option>
           <option value="qa">Q & A</option>
         </select>
-      </div>
+      </div> */}
     </div>
   );
 };
