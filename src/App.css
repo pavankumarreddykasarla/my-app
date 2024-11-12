@@ -87,7 +87,7 @@
 .react-chatbot-kit-chat-message-container::-webkit-scrollbar-thumb {
   background-color: #ccc; /* Light gray for the thumb */
   border-radius: 10px; /* Rounded scrollbar */
-  border: 2px solid #f9f9f9; /* Light border around the thumb */
+  border: 2px solid #f9f9f9; 
 }
 
 .react-chatbot-kit-chat-message-container::-webkit-scrollbar-thumb:hover {
