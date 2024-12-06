@@ -34,7 +34,7 @@ const Header = () => {
           id="dropdown1"
           value={selectedDropdown1}
           onChange={handleModelChange}
-          style={{ border: 'none', fontSize: 'x-large', outline: 'none' }}
+          style={{ border: 'none', fontSize: 'x-large', outline: 'none', border: '1px solid #ccc', cursor: 'pointer' }}
         >
           <option value="Llama 3.1">Llama 3.1 8B</option>
           <option value="Mystral">Mistral 7B</option>
